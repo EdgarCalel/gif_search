@@ -1,0 +1,65 @@
+.card{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px, rgb(106, 236, 0) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(225, 245, 1, 0.09) 0px -3px 5px;box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:white;
+
+}
+.card > img{
+    width: 100%;
+  height: 75%;
+   border-radius: 10px;
+}
+
+.Card-Grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.InputSearch{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-bottom:40px
+}
+.seachBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imgCargando{
+    margin-top: 50px;
+
+    width: 300px;
+    text-align: center;
+    border-radius: 50% 20% / 10% 40%;
+    background-color:green;
+
+}
+.contentGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo_loading{
+    color: white;
+    margin-left: 20px;
+}
+.loading_style{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.Titulo-Principal{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+  }
